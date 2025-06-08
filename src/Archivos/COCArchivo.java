@@ -6,12 +6,12 @@ import java.io.RandomAccessFile;
 
 public class COCArchivo {
     private File archivo;
-        private String nombre;
-    
+        //private String nombre;
+    /* 
         public COCArchivo(String nombre) {
             this.nombre = nombre;
             this.archivo = new File(Archivo.RUTA_BASE + File.separator + nombre);
-        }
+        }*/
     
         public void crearYEscribir() {
             try {
