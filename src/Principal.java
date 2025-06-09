@@ -1,3 +1,4 @@
+
 import Entidades.Usuario;
 import Entidades.VideoJuego;
 //import Ventanas.Menu;
@@ -7,22 +8,23 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.Random;
 import java.util.function.Supplier;
+
 import Archivos.Acceso;
 import Archivos.Archivo;
 
-public class App {
-    public static void main(String[] args) throws Exception {
-        //System.out.println("Hello, World!");
-
-        iniciarMenu();
+public class Principal {
+    public static void main(String[] args) {
+            iniciarMenu();
             //Archivo.crearArchivosIniciales();
     
             //llenarAleatorio("Videojuegos.dat", Principal::generarVideojuegoAleatorio, 100);
             //llenarAleatorio("Usuarios.dat", Principal::generarUsuarioAleatorio, 50);
             //mostrarRegistros("Usuarios.dat", new Entidades.Usuario(), Entidades.Usuario.LONGITUD_REGISTRO);
             //mostrarRegistros("Videojuegos.dat", new Entidades.Videojuego(), Entidades.Videojuego.LONGITUD_REGISTRO);
-    }
-     public static void iniciarMenu() {
+            
+        }
+        
+        public static void iniciarMenu() {
             javax.swing.SwingUtilities.invokeLater(new Runnable() {
                 public void run() {
                     //new Menu().setVisible(true);
