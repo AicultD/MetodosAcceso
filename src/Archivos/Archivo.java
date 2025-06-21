@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class Archivo {
-    public static final String RUTA_BASE = "D:\\MetodosAcceso\\Sistema\\Archivos";
+    public static final String RUTA_BASE = "L:\\MetodosAcceso\\Sistema\\Archivos";
     
         private File archivo;
         private String nombre;
